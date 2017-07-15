@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">signApp</string>
+
+    <string name="boton_firma_cancelar">Cancelar</string>
+    <string name="boton_firma_guardar">Guardar</string>
+    <string name="boton_firma_limpiar">Limpiar</string>
+    <string name="boton_firma_info">Por favor, firme abajo:</string>
+    <string name="no_forms_saved">No existen formularios guardados</string>
+
+
+    <!-- Uso genérico -->
+    <string name="cargando">Cargando...</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="guardar">Guardar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="espere">Por favor, espere</string>
+    <string name="error">Error</string>
+    <string name="error_general_comunicaciones">Ha habido un problema con la conexión de red, revise su conexión y vuelva a intentarlo.</string>
+    <string name="obteniendo_formulario">Obteniendo formulario.</string>
+    <string name="obteniendo_solicitud">Obteniendo solicitud.</string>
+    <string name="error_solicitud">Error en solicitud</string>
+    <string name="solicitud_sin_recuperar">No se ha podido recuperar el documento de la solicitud</string>
+    <string name="ver_pdf">PDF</string>
+
+    <string name="anterior">Anterior</string>
+    <string name="siguiente">Siguiente</string>
+
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- ShowFormularioActivity-->
+    <string name="formulario_no_encontrado">No se ha encontrado el formulario</string>
+
+    <!-- mgm 160229 -->
+    <string name="titulo_show_forms">Forms</string>
+    <string name="titulo_show_formulario">Formulario</string>
+    <string name="titulo_login">Login</string>
+
+
+    <!--     Cronicos
+
+    <string name="url_get_forms">http://pcron-mov.cpd01svt.net/iFormsJSONWS/WS/iForms/GetForms/</string>
+<string name="url_download_form">http://pcron-mov.cpd01svt.net/iFormsJSONWS/WS/iForms/GetForm/</string>
+
+<string name="url_send_form">http://pcron-mov.cpd01svt.net/iFormsJSONWS/WS/iForms/SendForm/</string>
+<string name="url_download_report">http://pcron-mov.cpd01svt.net/iFormsJSONWS/WS/iForms/GetDocument/</string>
+<string name="url_download_form_image">http://pcron-mov.cpd01svt.net/iFormsJSONWS/WS/iForms/GetFormImage/</string>
+<string name="url_send_id_register_push">http://pcron-mov.cpd01svt.net/NotificacionesStandaloneWS/services/NotificacionesWS</string>
+   -->
+
+
+    <!--     Iecisa  mgm: todo: se debería de borrar-->
+    <string name="url_entity">ORNG</string>
+
+
+    <string name="url_get_forms">http://93.191.142.82:9090/iFormsJSONWS/WS/iForms/GetForms/</string>
+    <string name="url_download_form">http://93.191.142.82:9090/iFormsJSONWS/WS/iForms/GetForm/</string>
+    <string name="url_send_form">http://93.191.142.82:9090/iFormsJSONWS/WS/iForms/SendForm/</string>
+    <string name="url_download_report">http://93.191.142.82:9090/iFormsJSONWS/WS/iForms/GetDocument/</string>
+    <string name="url_download_form_image">http://93.191.142.82:9090/iFormsJSONWS/WS/iForms/GetFormImage/</string>
+
+
+    <!--     <string name="url_get_forms">http://pcron-mov.cpd01svt.net/iFormsJSONWS/WS/iForms/GetForms/</string> -->
+    <!--     <string name="url_download_form">http://172.20.10.4:8080/iFormsJSONWS/WS/iForms/GetForm/</string> -->
+    <!--     <string name="url_send_form">http://pcron-mov.cpd01svt.net/iFormsJSONWS/WS/iForms/SendForm/</string> -->
+    <!--     <string name="url_download_report">http://pcron-mov.cpd01svt.net/iFormsJSONWS/WS/iForms/GetDocument/</string> -->
+    <!--     <string name="url_download_form_image">http://pcron-mov.cpd01svt.net/iFormsJSONWS/WS/iForms/GetFormImage/</string> -->
+    <!--     <string name="url_send_id_register_push"> http://pcron-mov.cpd01svt.net/NotificacionesStandaloneWS/services/NotificacionesWS</string> -->
+
+    <!--     <string name="url_get_forms">http://192.168.43.103:8080/iFormsJSONWS/WS/iForms/GetForms/</string> -->
+    <!--     <string name="url_download_form">http://192.168.43.103:8080/iFormsJSONWS/WS/iForms/GetForm/</string> -->
+    <!--     <string name="url_send_form">http://192.168.43.103:8080/iFormsJSONWS/WS/iForms/SendForm/</string> -->
+    <!--     <string name="url_download_report">http://192.168.43.103:8080/iFormsJSONWS/WS/iForms/GetDocument/</string> -->
+    <!--     <string name="url_download_form_image">http://192.168.43.103:8080/iFormsJSONWS/WS/iForms/GetFormImage/</string> -->
+    <!--    <string name="url_entity">SGN</string>  -->
+
+
+    <string name="unidad_pulso">PRbpm</string>
+    <string name="unidad_oxigeno">SpO2%</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+    <string name="test_sin_finalizar_titulo">Test sin finalizar</string>
+    <string name="test_sin_finalizar">Tiene un test pendiente de finalizar, si sale del test sin finalizarlo perderá la información, ¿seguro que desea salir del test sin finalizarlo?</string>
+    <string name="campoRequerido">El campo \n"%1$s"\n es requerido</string>
+    <string name="camposRequerido">Los siguientes campos \n"%1$s"\n son requeridos</string>
+
+    <!-- Others -->
+    <string name="ellipsis">...</string>
+
+    <!-- Login -->
+    <string name="signa_title">signApp</string>
+    <string name="signa_description">contratación y movilidad</string>
+    <string name="user">Usuario:</string>
+    <string name="password">Contraseña:</string>
+    <string name="login">Entrar</string>
+    <string name="forgot_your_pass">¿Has olvidado tu contraseña?</string>
+    <string name="login_user_incorrect_title">Usuario incorrecto</string>
+    <string name="login_user_incorrect_description">Vuelva a introducir el usuario y contraseña</string>
+    <string name="login_user_empty">Complete el usuario</string>
+    <string name="login_user_error">Error al obtener el usuario, vuelva a intentarlo</string>
+    <string name="login_user_error_network">Error al obtener el usuario, compruebe su conexión a internet</string>
+    <string name="login_pass_empty">Complete la contraseña</string>
+    <string name="login_user_incorrect_name_title">Nombre incorrecto</string>
+    <string name="login_user_incorrect_pass_title">Contraseña incorrecta</string>
+
+
+    <!-- Fields -->
+    <string name="field_barcode_press">Obtener el código</string>
+
+
+    <!-- Menu -->
+    <string name="menu_option1">Plantillas</string>
+    <string name="menu_option2">Ofertas</string>
+    <string name="menu_option3">Papelera</string>
+
+    <!-- ShowForm -->
+    <string name="show_form_new_offer">Nueva Oferta</string>
+    <string name="show_form_version">Version</string>
+    <string name="error_no_descargado_no_conexion">Formulario no descargado, intentelo de nuevo cuando tenga conexion.</string>
+
+    <!-- NewOffer -->
+    <string name="new_offer_new_offer">Nueva Oferta</string>
+    <string name="new_offer_new_title">Por favor, escribe un título para esta oferta</string>
+    <string name="new_offer_title">Título</string>
+    <string name="new_offer_date">Fecha de creación</string>
+    <string name="new_offer_id">ID Oferta</string>
+    <string name="new_offer_bt_new_offer">Crear nueva oferta</string>
+    <string name="new_offer_bt_cancel">Cancelar</string>
+
+    <!-- MonoSection -->
+    <string name="new_section">Nuevo</string>
+    <string name="content_img_view">ImageView</string>
+    <string name="group">Grupo: </string>
+    <string name="minus_symbol">-</string>
+    <string name="plus_symbol">+</string>
+
+</resources>

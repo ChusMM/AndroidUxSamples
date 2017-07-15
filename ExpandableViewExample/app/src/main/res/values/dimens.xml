@@ -1,0 +1,83 @@
+<resources>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="principal_margin">20dp</dimen>
+    <dimen name="principal_margin_top_image">150dp</dimen>
+    <dimen name="formulario_margin_top_elementos">20dp</dimen>
+
+    <!-- textos --> <!-- mgm todo: pendiente de organizar -->
+    <dimen name="text_11sp">11dp</dimen>
+    <dimen name="text_13sp">13dp</dimen>
+    <dimen name="text_14sp">14dp</dimen>
+    <dimen name="text_15sp">15dp</dimen>
+    <dimen name="text_16sp">16dp</dimen>
+    <dimen name="text_18sp">18dp</dimen>
+
+    <dimen name="padding_input_to_editText">15dip</dimen>
+    <dimen name="padding_formulario">10dip</dimen>
+
+    <dimen name="margen_general">20dip</dimen>
+    <dimen name="margen_general_small">10dip</dimen>
+    <dimen name="padding_general_small">10dip</dimen>
+    <dimen name="padding_general">20dip</dimen>
+    <!-- Drawer -->
+    <dimen name="drawer_primary">60dp</dimen>
+    <dimen name="drawer_primary_text">24sp</dimen>
+    <dimen name="drawer_secondary">44dp</dimen>
+    <dimen name="drawer_secondary_text">16sp</dimen>
+    <dimen name="drawer_secondary_icon">16dp</dimen>
+    <dimen name="drawer_width">240dp</dimen>
+
+    <!-- Navigation Bar -->
+    <dimen name="navigation_bar_logo_padding_top">7dp</dimen>
+    <dimen name="navigation_bar_logo_padding_bottom">7dp</dimen>
+    <dimen name="navigation_bar_logo_padding_rigth">50dp</dimen>
+
+    <!-- Login -->
+    <dimen name="login_logo">60dp</dimen>
+    <dimen name="login_l_signa_title">45sp</dimen>
+    <dimen name="login_l_signa_description">30sp</dimen>
+    <dimen name="login_l_field">16sp</dimen>
+    <dimen name="login_l_field_in">16sp</dimen>
+    <dimen name="login_in_height">50dp</dimen>
+    <dimen name="login_in_width">100dp</dimen>
+
+    <!-- Fields -->
+    <dimen name="field_title">20sp</dimen>
+    <dimen name="field_in">16sp</dimen>
+    <dimen name="field_calc_title">16sp</dimen>
+    <dimen name="field_calc_in">16sp</dimen>
+    <dimen name="field_calc_in_padding">5dp</dimen>
+    <dimen name="field_bt_in">15sp</dimen>
+    <dimen name="field_padding">25dp</dimen>
+    <dimen name="field_padding_title_bottom">10dp</dimen>
+
+    <!-- New Offer -->
+    <dimen name="field_background_corporativo">14sp</dimen>
+
+
+    <!-- Titles -->
+    <dimen name="new_offer_title_pag">25sp</dimen>
+    <dimen name="new_offer_subtitle">15sp</dimen>
+
+    <!-- Form Show -->
+
+    <dimen name="show_form_bar_height">70dp</dimen>
+    <dimen name="show_form_menu_open_width">500px</dimen>
+    <dimen name="show_form_menu_close_width">200px</dimen>
+    <!--logo-->
+    <dimen name="show_form_logo">70dp</dimen>
+    <dimen name="show_form_logo_text_title_dimen">40px</dimen>
+    <dimen name="show_form_logo_text_desc_dimen">25px</dimen>
+    <!--menu-->
+    <dimen name="show_form_menu_row_height">60dp</dimen>
+    <dimen name="show_form_menu_row_icon_height">48px</dimen>
+    <dimen name="show_form_menu_row_icon_width">48px</dimen>
+
+    <!-- Formulario -->
+    <dimen name="formulario_row_height">60dp</dimen>
+
+</resources>

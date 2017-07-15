@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Magneds</string>
+
+    <string name="detail_age_hint">The persons age in %1$d years is</string>
+</resources>

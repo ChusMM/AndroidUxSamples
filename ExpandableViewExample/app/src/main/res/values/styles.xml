@@ -1,0 +1,226 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="AboutTheme" parent="AppTheme">
+		<item name="windowActionBar">true</item>
+	</style>
+
+	<style name="AppTheme" parent="BaseTheme">
+	</style>
+
+    <!-- Tema base de la aplicación  -->
+	<style name="BaseTheme" parent="Theme.AppCompat">
+		<!-- Here we setting appcompat’s actionBarStyle -->
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+
+		<item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+	</style>
+
+    <!-- Botón con fondo naranja y texto en blanco -->
+    <style name="BotonNaranja" parent="BaseTheme">
+        <item name="android:background">@color/background_corporativo</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Botón con fondo blanco y texto en naranja -->
+    <style name="BotonBlanco" parent="BaseTheme">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/background_corporativo</item>
+    </style>
+
+    <!-- Campo calculado de la oferta con fondo naranja y texto en blanco -->
+    <style name="CampoCalculado" parent="BaseTheme">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/background_corporativo</item>
+    </style>
+
+
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/background_corporativo</item>
+        <item name="android:homeAsUpIndicator">@color/white</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+		<item name="spinBars">false</item>
+		<item name="color">@android:color/white</item>
+	</style>
+
+
+	<style name="field_title_vista">
+		<item name="android:textColor">@color/black</item>
+	    <item name="android:textSize">17sp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#626262</item>
+	    <item name="android:shadowDx">2</item>
+	    <item name="android:shadowDy">2</item>
+    </style>
+    <style name="field_title_formulario">
+		<item name="android:textColor">@color/white</item>
+	    <item name="android:textSize">15sp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#626262</item>
+	    <item name="android:shadowDx">2</item>
+	    <item name="android:shadowDy">2</item>
+    </style>
+   <style name="field_text_sub">
+		<item name="android:textColor">@color/black</item>
+	    <item name="android:textSize">13sp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#626262</item>
+	    <item name="android:shadowDx">2</item>
+	    <item name="android:shadowDy">2</item>
+    </style>
+    <!--
+    <style name="field_boton">
+		<item name="android:textColor">@color/white</item>
+	    <item name="android:textSize">13sp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#626262</item>
+	    <item name="android:shadowDx">2</item>
+	    <item name="android:shadowDy">2</item>
+    </style>
+       <style name="field_text">
+		<item name="android:textColor">@color/black</item>
+	    <item name="android:textSize">13sp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#626262</item>
+	    <item name="android:shadowDx">2</item>
+	    <item name="android:shadowDy">2</item>
+    </style>
+    -->
+
+    <!-- definidos en la versión de José Antonio -->
+    <style name="field_combo" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+	    <item name="android:spinnerStyle">@style/field_text</item>
+	    <item name="android:spinnerItemStyle">@style/field_text</item>
+    	<item name="android:spinnerDropDownItemStyle">@style/field_text</item>
+	</style>
+
+	<style name="fontMenu">
+		<item name="android:textStyle">normal</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textColor">@color/text_white</item>
+	</style>
+
+
+    <style name="field_boton">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="field_boton_override">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="field_boton_azul_oscuro">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="contador_preguntas">
+        <item name="android:textColor">@color/azul_contador_preguntas</item>
+        <item name="android:textSize">@dimen/text_16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="titulo_pregunta">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_11sp</item>
+    </style>
+    <style name="titulo_pagina">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="texto_pagina">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_16sp</item>
+    </style>
+    <style name="formulario_texto">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_16sp</item>
+    </style>
+
+    <style name="formulario_titulo">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Título del control(field) en el formulario  -->
+    <style name="field_text">
+        <item name="android:textColor">@color/field_title</item>
+        <item name="android:textSize">@dimen/field_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- Texto respuesta del control(field) en el formulario -->
+    <style name="field_text_in">
+        <item name="android:textColor">@color/field_in</item>
+        <item name="android:textSize">@dimen/field_in</item>
+        <item name="android:background">@drawable/background_inputext</item>
+        <item name="android:height">30dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- Título del control(field) calculado en el formulario  -->
+    <style name="field_text_calc">
+        <item name="android:textColor">@color/field_title</item>
+        <item name="android:textSize">@dimen/field_calc_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- Texto respuesta del control(field) calculado en el formulario -->
+    <style name="field_text_calc_in" parent="field_text_in">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/field_calc_in</item>
+        <item name="android:paddingLeft">@dimen/field_calc_in_padding</item>
+        <item name="android:paddingRight">@dimen/field_calc_in_padding</item>
+        <item name="android:background">@color/background_corporativo</item>
+    </style>
+
+    <style name="field_text_color_background">
+        <item name="android:textColor">@color/background_corporativo</item>
+        <item name="android:textSize">@dimen/field_background_corporativo</item>
+    </style>
+    <style name="field_text_bt">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/field_bt_in</item>
+    </style>
+    <style name="texto_carrusel_productos">
+        <item name="android:paddingTop">7dip</item>
+        <item name="android:paddingBottom">7dip</item>
+        <item name="android:textSize">@dimen/text_16sp</item>
+    </style>
+
+    <style name="MyActionBar.MenuTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+	    <item name="android:textSize">10sp</item>
+	</style>
+
+    <style name="field_input_text">
+        <item name="android:textSize">@dimen/text_16sp</item>
+    </style>
+    <style name="field_oximeter_values">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:shadowColor">#626262</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+    </style>
+    <style name="field_oximeter_values_unit">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="theme_personal_light" parent="@android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

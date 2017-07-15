@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableRow
+        android:id="@+id/rowPageHeader"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/show_form_bar_height"
+        android:background="@android:color/black"
+        android:weightSum="1.0">
+
+        <TextView
+            android:id="@+id/txSectionName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_weight="0.4"
+            style="@style/field_title_formulario">
+        </TextView>
+    </TableRow>
+
+</LinearLayout>

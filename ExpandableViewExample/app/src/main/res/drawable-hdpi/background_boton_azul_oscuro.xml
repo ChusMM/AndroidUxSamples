@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <shape>
+            <solid
+                android:color="@color/azul_boton" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/azul_boton" />
+            <corners
+                android:radius="0dp" />
+<!--             <padding -->
+<!--                 android:left="3dp" -->
+<!--                 android:top="3dp" -->
+<!--                 android:right="3dp" -->
+<!--                 android:bottom="3dp" /> -->
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@color/azul_oscuro_boton"
+                android:endColor="@color/azul_oscuro_boton"
+                android:angle="0" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/azul_oscuro_boton" />
+            <corners
+                android:radius="0dp" />
+<!--             <padding -->
+<!--                 android:left="3dp" -->
+<!--                 android:top="3dp" -->
+<!--                 android:right="3dp" -->
+<!--                 android:bottom="3dp" /> -->
+        </shape>
+    </item>
+</selector>
